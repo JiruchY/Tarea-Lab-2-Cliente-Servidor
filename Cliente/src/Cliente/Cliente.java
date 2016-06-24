@@ -37,7 +37,6 @@ public class Cliente{
                     System.out.println("4: Hobbie");
                     System.out.println("5: ¿Que haces?");
                     System.out.println("server>" + message);
-                    sendMessage("Hi my server");
                     System.out.print("cliente> ");
                     message = rd.next();
                     sendMessage(message);
